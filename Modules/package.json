@@ -1,0 +1,15 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "A test module that contains require and export methods",
+  "main": "describeApp.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "require",
+    "export"
+  ],
+  "author": "Akash Chandwani",
+  "license": "MIT"
+}
