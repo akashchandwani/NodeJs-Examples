@@ -3,7 +3,7 @@ var net = require('net');
 var server = net.createServer(function(connectionListener){
 
     console.log('connected');
-    console.log(this);
+    
     console.log(this.address());
 
     this.getConnections(function(err, count){
